@@ -1,93 +1,135 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="nl">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>CV Fereshta Sayfi</title>
     <link rel="stylesheet" href="css/style.css">
+    <script src="js/main.js" defer></script>
 </head>
 <body>
-    <div class="blokEen">
-        <img src="fotos/Black2.jpg">
-    </div>
-    <div class="blokTwee">
-        <div class="homeOverlay">
-            <img src="fotos/fereshta.jpg" class="profiel">
-            <div class="text">
-                <h1> <strong>Fereshta Sayfi</strong></h1>
-                <br>
-                <h3>MBO Software Development (niveau 4)</h3>
+
+<main class="app">
+    <aside class="profileCard">
+        <img src="fotos/fereshta.jpg" class="profiel" alt="Profielfoto">
+
+        <h1 class="name">Fereshta Sayfi</h1>
+        <p class="role">MBO Software Development (niveau 4)</p>
+
+        <div class="navButtons">
+            <button class="navBtn is-active" data-index="0">Wie ben ik?</button>
+            <button class="navBtn" data-index="1">Projecten</button>
+            <button class="navBtn" data-index="2">Waarom ik?</button>
+            <button class="navBtn" data-index="3">Opleiding</button>
+            <button class="navBtn" data-index="4">Skills & Werkervaring</button>
+            <button class="navBtn" data-index="5">Taal & Hobbies</button>
+            <button class="navBtn" data-index="6">Stage beschikbaarheid</button>
+            <button class="navBtn" data-index="7">Contact</button>
+        </div>
+    </aside>
+    <section class="contentCard">
+
+        <div class="viewport">
+            <div class="slider" id="slider">
+
+                <div class="view">
+                    <h2><strong>Wie ben ik?</strong></h2>
+                    <p>
+                        MBO Software Development-student (niveau 4) bij Vonk Schagen.<br>
+                        Ik maak websites met HTML, CSS en JavaScript.<br>
+                        Ik werk ook graag met Python.<br>
+                        Ik wil graag een stage vinden waar ik kan meewerken aan echte projecten en kan groeien richting backend.
+                    </p>
+                </div>
+
+                <div class="view">
+                    <h2><strong>Wat heb ik al gemaakt?</strong></h2>
+                    <p>Hier staan mijn opdrachten en projecten:</p>
+
+                    <a href="https://github.com/fereshtasayfi/portfolio-en-python-oefeningen" target="_blank">
+                        Github Python opdrachten
+                    </a>
+                    <br>
+                    <a href="https://github.com/fereshtasayfi/HTML-CSS-en-JS-oefeningen/tree/main" target="_blank">
+                        Github HTML, CSS en JavaScript opdrachten
+                    </a>
+                    <br>
+                    <a href="https://github.com/fereshtasayfi/GameProject1/tree/main" target="_blank">
+                        Github Game Project 
+                    </a>
+                </div>
+                <div class="view">
+                    <h2><strong>Waarom ik?</strong></h2>
+                    <p>
+                        Ik werk rustig en nauwkeurig en geef niet snel op als iets niet lukt.<br>
+                        Ik leert snel, vraag vragen en probeer mezelf elke dag te verbeteren.<br>
+                        Tijdens projecten werk ik gestructureerd en zoek oplossingen zelfstandig.
+                    </p>
+                </div>
+                <div class="view">
+                    <h2><strong>Opleiding</strong></h2>
+                    <ul>
+                        <li>Beroeps onderwijs - Scholen aan zee (2021 - 2022)</li>
+                        <li>Mavo - Scholen aan zee (2022 - 2023)</li>
+                        <li>
+                            Havo - Scholen aan zee (2023 - 2025)<br>
+                            Vakkenpakket: natuurkunde, biologie, scheikunde, wisA en economie
+                        </li>
+                        <li>MBO - Vonk Schagen - Software Development niveau 4 (2025 - huidig)</li>
+                    </ul>
+                </div>
+                <div class="view">
+                    <h2><strong>Skills</strong></h2>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript (basis)</li>
+                        <li>Python (basis)</li>
+                        <li>Visual Studio Code</li>
+                        <li>GitHub (basis)</li>
+                        <li>Lua (basis)</li>
+                    </ul>
+                    <br>
+                    <h3>Werkervaring</h3>
+                    <p>Korte meeloopstage tijdens Havo (1 dag, HBO Alkmaar)</p>
+                </div>
+                <div class="view">
+                    <h2><strong>Taal</strong></h2>
+                    <ul>
+                        <li>Nederlands: goed</li>
+                        <li>Engels: goed</li>
+                        <li>Farsi: moedertaal</li>
+                    </ul>
+                    <br>
+                    <h3>Hobbies</h3>
+                    <ul>
+                        <li>Gamen</li>
+                        <li>Computer programmeren</li>
+                        <li>Lezen</li>
+                    </ul>
+                </div>
+                <div class="view">
+                    <h2><strong>Stage beschikbaarheid</strong></h2><br>
+                    <p><strong>Periode:</strong> 17 augustus 2026 t/m 15 januari 2027</p>
+                    <p><strong>Dagen:</strong> 4 dagen per week (maandag t/m donderdag)</p>
+                    <p><strong>Tijden:</strong> 08:00 – 16:00 (8 uur per dag)</p>
+                </div>
+                <div class="view">
+                    <h2><strong>Contact</strong></h2>
+                    <p><strong>E-mail:</strong> fereshta.sayfi@student.vonknh.nl</p>
+                    <p><strong>Telefoon:</strong> 06-48909534</p>
+                </div>
+
             </div>
         </div>
-    </div>
-    <section class="layout">
-        <section class="rand">
-            <div class="viewport">
-                <div class="slider" id="slider">
-                    <div class="view">
-                        <h2><strong>Wie ben ik?</strong></h2>
-                        <p>Ik ben een Software Development student van Vonk Schagen en ik ben momenteel bezig met leren en mezelf te ontwikkelen als developer.</p>
-                    </div>
-                    <div class="view">
-                        <h2><strong>Wat heb ik al gemaakt?</strong></h2>
-                        <p>Ik heb al opdrachten gekregen <br>op mijn opleiding. <br>Hier kan je alles vinden</p>
-                        <a href="https://github.com/fereshtasayfi/portfolio-en-python-oefeningen">Github python opdrachten</a><br>
-                        <a href="https://github.com/fereshtasayfi/HTML-CSS-en-JS-oefeningen/tree/main">Github CSS, HTML en JS opdrachten</a>
-                    </div>
-                    <div class="view">
-                        <h2><strong>Wat wil ik nog leren?</strong></h2>
-                        <p><br>Ik werk met HTMl, CSS, JavaScript en Python<br>en wil verder ontwikkelen in backend</p>
-                    </div>
-                    <div class="view">
-                        <h2><strong>Over mij</strong></h2>
-                        <p>Leergierig student geïnteresseerd in coderen.<br>Ik ben rustig en gemotiveerd om meer te leren.<br>Op zoek naar een stageplaats waar ik mezelf verder ontwikkel.</p>
-                    </div>
-                    <div class="view">
-                        <h2><strong>Opleiding</strong></h2>
-                        <ul>
-                            <li>Beroeps onderwijs<br>Scholen aan zee<br>2021 - 2022</li>
-                            <li>Mavo<br>Scholen aan zee<br>2022 - 2023</li>
-                            <li>Havo<br>Scholen aan zee<br><strong>vakkenpakket:</strong>natuurkunde, biologie, scheikunde, wisA en economie als extra vak<br>2023 - 2025</li>
-                            <li>Mbo<br>Vonk schagen<br>Software Development niveau 4<br>2025 - huidig</li>
-                        </ul>    
-                    </div>
-                    <div class="view">
-                        <h2><strong>Werkervaring</strong></h2>
-                        <p>Korte meeloopstage tijdens<br>Havo (1 dag, Hbo Alkmaar)</p>
-                    </div>
-                    <div class="view">
-                        <h2><strong>Skills</strong></h2>
-                        <ul>
-                            <li>HTML</li>
-                            <li>CSS</li>
-                            <li>JavaScript</li>
-                            <li>Python</li>
-                            <li>Gemotiveerd</li>
-                            <li>Visual Studio Code</li>
-                        </ul>  
-                    </div>
-                    <div class="view">
-                        <h2><strong>Taal</strong></h2>
-                        <ul>
-                            <li>Nederlands: goed</li>
-                            <li>Engels: goed</li>
-                            <li>Farsi: goed/moedertaal</li>
-                        </ul>     
-                    </div>  
-                    <div class="view">
-                        <h2><strong>Contact</strong></h2>
-                        <h4>beschikbaar voor stage Software Development</h4>
-                        <p>E-Mail: fereshta.sayfi@student.vonknh.nl</p>
-                        <p>Telefoonnummer: 06-48909534</p>
-                    </section>        
-                </div>
-            </div>
-    
+
+        <div class="arrows">
             <button class="buttonPrev" id="btnPrev">←</button>
             <button class="buttonNext" id="btnNext">→</button>
-
-        </section>
+        </div>
     </section>
-    <script src="js/main.js" defer></script>
+</main>
+</body>
 </html>
+
+
